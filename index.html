@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de cajas flotantes div y estilos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="header">
+        <h1>Maquetación de una página web</h1>
+        <p>Uso de cajas flotantes y estilos CSS</p>
+    </div>
+
+    <div id="content" class="clearfix">
+        <div id="left">
+            <h2>Introducción a las cajas flotantes (div)</h2>
+            <p>Las cajas flotantes permiten distribuir el contenido de una página web en distintas áreas.</p>
+            <p>La propiedad <code>float: left;</code> ubica una caja hacia la izquierda de su contenedor.</p>
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80"
+                 alt="Computadora y espacio de trabajo">
+        </div>
+
+        <div id="right">
+            <h2>Uso de la propiedad float</h2>
+            <p>La propiedad <code>float: right;</code> ubica esta caja hacia el lado derecho.</p>
+            <p>El uso de <code>clearfix</code> permite que el contenedor principal abarque correctamente las dos cajas flotantes.</p>
+            <h3>Estilización avanzada</h3>
+            <p>Se pueden combinar márgenes, bordes, rellenos, colores y tipografías para mejorar la presentación.</p>
+        </div>
+    </div>
+
+    <div id="footer">
+        <p>&copy; 2026 - Ejercicio práctico de Desarrollo Web</p>
+    </div>
+</body>
+</html>
